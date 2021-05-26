@@ -11,7 +11,7 @@
     "clean": "rimraf public/ .parcel-cache/",
     "debug": "cross-env DEBUG=Eleventy* NODE_ENV=development run-s start",
     "purgecss": "npx purgecss -c ./purgecss.config.js",
-    "watch:eleventy": "eleventy --serve",
+    "watch:eleventy": "eleventy --serve -- quiet",
     "watch:parcel": "parcel watch parcel.js --dist-dir ./public/_assets --public-url '/_assets'"
   },
   "keywords": [],
