@@ -5,8 +5,12 @@
       "url": "/"
     },
     {
-      "name": "Github",
+      "name": "Guide",
       "url": "https://github.com/THoenig/11ty-bs5-starter/"
+    },
+    {
+      "name" : "Games",
+      "url": "/src/pages/game.md"
     }
   ]
 }
